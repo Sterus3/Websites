@@ -1,0 +1,85 @@
+body {
+    background-color: LightGoldenrodYellow;
+    margin: 0;
+    padding: 0;
+    min-width: 600px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+header {
+    text-align: center;
+    padding: 1em;
+    background-color: #ffe4b5;
+    border-bottom: 2px solid #d2b48c;
+}
+
+h1 {
+    font-size: 48px;
+    font-variant: small-caps;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+h2 {
+    font-variant: small-caps;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: upper-roman;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid Sienna;
+}
+
+th, td {
+    border: 1px solid Peru; 
+    padding: 6px 10px;
+    text-align: right;
+}
+
+th {
+    text-align: left;
+    font-weight: bold;
+}
+
+table td, table th {
+    padding: 3px 6px;
+}
+
+#ciasto-img {
+    width: 50%;
+    height: auto;
+    margin:0 auto;
+    display:block;
+}
+
+.normal {
+    filter: none;
+}
+
+.sepia {
+    filter: sepia(100%);
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.border-active {
+    border: 2px solid black;
+}
