@@ -1,0 +1,79 @@
+.city-list-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .main-city-list {
+    flex: 0 0 70%;
+    padding-right: 20px;
+  }
+  
+  .sidebar {
+    flex: 0 0 25%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-left: 2px solid #ccc;
+    position: sticky;
+    top: 20px;
+  }
+  
+  .city-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .city-name {
+    flex-grow: 1;
+  }
+  
+  .city-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .favorite-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .favorite-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2em;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+    outline: none;
+  }
+  
+  .favorite-btn:focus,
+  .favorite-btn:active,
+  .favorite-btn:hover {
+    outline: none;
+    background: none;
+    box-shadow: none;
+  }
+  
+  .favorite-btn:hover {
+    color: inherit;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
